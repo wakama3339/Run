@@ -1,0 +1,19 @@
+fn main() void:
+    print("Hello World")
+    print(42)
+    print(-7)
+    print(3.14)
+    print(true)
+    print(false)
+    print('A')
+    name: str = "world"
+    print(name)
+    n: int = 100
+    print(n)
+    n = n + 23
+    print(n)
+    print(2 * 21)
+    const limit: int = 10
+    print(limit)
+    const pi: float = 3.14
+    print(pi)

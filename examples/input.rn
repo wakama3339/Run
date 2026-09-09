@@ -1,0 +1,9 @@
+fn main() void:
+    name: str = input("What is your name? ")
+    print(name)
+    line: str = input()
+    print(line)
+    if name == "quit":
+        print("bye")
+    else:
+        print("hi")

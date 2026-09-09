@@ -1,0 +1,42 @@
+fn main() void:
+    x: int = 10
+    if x == 10:
+        print("ten")
+    if x > 100:
+        print("big")
+    else:
+        print("small")
+    if x < 0:
+        print("neg")
+    elif x == 10:
+        print("eq10")
+    elif x > 5:
+        print("gt5")
+    else:
+        print("other")
+    if x == 10:
+        if x > 5:
+            print("nested")
+        else:
+            print("nested-else")
+    y: int = 1
+    if y == 2:
+        print("nope")
+    else:
+        print("y-else")
+    if y > 5:
+        print("nope2")
+    elif y > 10:
+        print("nope3")
+    else:
+        print("chain-else")
+    if y == 1:
+        if y == 2:
+            print("nope4")
+        else:
+            print("deep-else")
+    print("done")
+    if true:
+        print("t")
+    if !false && true || false:
+        print("logic")

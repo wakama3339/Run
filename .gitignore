@@ -1,0 +1,4 @@
+# regenerate with: cmake -S . -B build -G Ninja && cmake --build build
+build/
+*.exe
+*.obj

@@ -1,0 +1,7 @@
+import "../libmath.rn"
+
+fn helper() str:
+    return "from-sub"
+
+fn helper_sum(a: int, b: int) int:
+    return add(a, b) * 10

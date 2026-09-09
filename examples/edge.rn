@@ -1,0 +1,11 @@
+fn main() void:
+    print(0)
+    print(-0)
+    print(0.0)
+    print(-2.5)
+    print(10 / 4)
+    print(10 - 3)
+    print(1.5 + 2.25)
+    print(7 / 2)
+    print('z')
+    print("escape:\nline2")

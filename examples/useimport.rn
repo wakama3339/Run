@@ -1,0 +1,9 @@
+import "libmath.rn"
+import "sub/helper.rn"
+
+fn main() void:
+    print(add(20, 22))
+    print(square(7))
+    print(fact(5))
+    print(helper())
+    print(helper_sum(1, 2))

@@ -1,0 +1,28 @@
+fn add(a: int, b: int) int:
+    return a + b
+
+fn fact(n: int) int:
+    if n <= 1:
+        return 1
+    return n * fact(n - 1)
+
+fn sayhi() void:
+    print("hi")
+
+fn mix(a: int, b: float, c: str, d: bool, e: char, f: int, g: int) int:
+    print(c)
+    if d:
+        print(e)
+    return a + f + g
+
+fn greet() str:
+    return "hello-fn"
+
+fn main() void:
+    print(add(2, 3))
+    print(fact(5))
+    sayhi()
+    print(mix(1, 2.5, "mix!", true, 'Z', 10, 20))
+    print(greet())
+    x: int = add(add(1, 2), 3)
+    print(x)
