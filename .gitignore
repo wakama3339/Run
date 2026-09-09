@@ -2,3 +2,6 @@
 build/
 *.exe
 *.obj
+\
+release-staging/
+*.zip\
